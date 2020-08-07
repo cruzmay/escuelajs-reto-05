@@ -45,6 +45,21 @@ body {
   justify-content: space-between;
 }
 
+.finish {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgray;
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+.finish p {
+  color: dimgray;
+  padding: 4px;
+  font-weight: bold;
+}
+
 @keyframes fade {
   from {
     opacity: 0;
